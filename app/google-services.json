@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "132656274732",
+    "firebase_url": "https://wezeshabiashara-5fd63.firebaseio.com",
+    "project_id": "wezeshabiashara-5fd63",
+    "storage_bucket": "wezeshabiashara-5fd63.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132656274732:android:5a261b0b19260f0a182089",
+        "android_client_info": {
+          "package_name": "com.example.wezeshabiashara"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132656274732-ovr0cjmav52m2in5uidp44rfm3njiidt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wezeshabiashara",
+            "certificate_hash": "ad971da532529e6784a0059826ce30bcff3bf079"
+          }
+        },
+        {
+          "client_id": "132656274732-q5iahbqrljlq9jtk38k8pfteo5e3j282.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBp5CgDj4ccmirWjVQty4L9APj7ZHmJeZg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "132656274732-q5iahbqrljlq9jtk38k8pfteo5e3j282.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

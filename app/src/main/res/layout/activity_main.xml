@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:weightSum="4">
+
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:background="@mipmap/bb">
+
+  </RelativeLayout>
+
+  <RelativeLayout
+      android:elevation="36dp"
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="@drawable/card_background"
+      android:layout_weight="3">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Black"
+        android:textSize="26sp"
+        android:text="LOGIN"
+        android:layout_marginTop="36dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginStart="48dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true">
+
+      <EditText
+          android:id="@+id/login_phone_number_input"
+          android:drawableEnd="@drawable/ic_person_black_24dp"
+          android:drawableRight="@drawable/ic_person_black_24dp"
+          android:drawableTint="@color/Black"
+          android:hint="phone number"
+          android:layout_width="match_parent"
+          android:paddingLeft="26dp"
+          android:paddingRight="26dp"
+          android:textColor="@color/Black"
+          android:inputType="number"
+          android:textColorHint="@color/Black"
+          android:layout_height="52dp"
+          android:layout_marginLeft="48dp"
+          android:layout_marginRight="48dp"
+          android:background="@drawable/edit_teo_background" />
+
+      <EditText
+          android:id="@+id/login_passsword_input"
+          android:layout_marginTop="24dp"
+          android:drawableEnd="@drawable/ic_person_black_24dp"
+          android:drawableRight="@drawable/ic_person_black_24dp"
+          android:drawableTint="@color/Black"
+          android:hint="pass"
+          android:textColor="@color/Black"
+          android:layout_width="match_parent"
+          android:paddingLeft="26dp"
+          android:paddingRight="26dp"
+          android:inputType="text"
+          android:textColorHint="@color/Black"
+          android:layout_height="52dp"
+          android:layout_marginLeft="48dp"
+          android:layout_marginRight="48dp"
+          android:background="@drawable/edit_teo_background" />
+
+     <com.rey.material.widget.CheckBox
+         android:id="@+id/remember_me"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="48dp"
+         android:layout_marginStart="48dp"
+         android:layout_marginTop="18dp"
+         android:text="Remember me"
+         android:textSize="18sp"
+         android:textColor="@color/Black"/>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:weightSum="3"
+          android:layout_marginTop="24dp"
+          android:layout_marginLeft="48dp"
+          android:layout_marginRight="48dp">
+        <TextView android:id="@+id/not_admin_panel_link"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="@color/colorPrimary"
+          android:textSize="22sp"
+          android:text="User"
+          android:layout_marginTop="8dp"
+          android:layout_marginLeft="12dp"
+          android:layout_marginStart="12dp"
+          android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/admin_panel_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp"
+            android:text="Admin"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="0dp"
+            android:layout_height="52dp"
+            android:layout_weight="1"
+            android:text="Sign in"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:textColor="@color/White"
+            android:background="@drawable/button_teo_background"/>
+      </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="26dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="@color/Black"
+          android:textSize="18sp"
+          android:layout_marginLeft="12dp"
+          android:text="Dont have an account Register"/>
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="@color/colorPrimary"
+          android:textSize="18sp"
+          android:layout_marginLeft="12dp"
+          android:layout_marginStart="12dp"
+          android:text="regiter"
+          android:textStyle="bold"/>
+    </LinearLayout>
+  </RelativeLayout>
+</LinearLayout>

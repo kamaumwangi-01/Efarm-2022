@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminAddNewProductActivity">
+
+    <ImageView
+        android:id="@+id/select_product_image"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        android:src="@drawable/canister"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        />
+
+     <EditText
+         android:id="@+id/product_name"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/select_product_image"
+         android:inputType="textMultiLine"
+         android:layout_marginTop="20dp"
+         android:padding="20dp"
+         android:textColor="@color/Black"
+         android:textColorHint="@color/Black"
+         android:hint="DESCRIBE THE PLACE"
+         android:layout_marginLeft="30dp"
+         android:layout_marginRight="30dp"
+         android:background="@drawable/edit_teo_background"
+         />
+    <EditText
+        android:id="@+id/product_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_name"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="6dp"
+        android:padding="20dp"
+        android:hint="FATAL"
+        android:textColorHint="@color/Black"
+        android:textColor="@color/Black"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/edit_teo_background"
+        />
+    <EditText
+        android:id="@+id/product_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_description"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="6dp"
+        android:textColor="@color/Black"
+        android:padding="20dp"
+        android:hint="NOT FATAL"
+        android:textColorHint="@color/Black"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/edit_teo_background"
+        />
+    <Button
+        android:id="@+id/add_new_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_price"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:padding="17dp"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:textAllCaps="false"
+        android:text="Add new product"
+        android:textColor="@android:color/white"
+        android:background="@drawable/buttons"
+        />
+
+
+</RelativeLayout>
